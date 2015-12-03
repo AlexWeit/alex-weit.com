@@ -1,0 +1,167 @@
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background: url(../images/site-bg.png);
+}
+
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+    content: " ";
+    background-image: url(../images/spritesheet.png);
+}
+
+.wrapper {
+	overflow: hidden; /*нужен, чтобы за него можно было прятать другие элементы*/
+	position: relative;
+	min-height: 100%;
+}
+
+/* HEADER */
+
+.header {
+	position: relative;
+	height: 119px;
+	width: 100%;
+	background-color: #eff3f7;
+}
+
+.container {
+	position: relative;
+	width: 1400px;
+	margin: 0 auto;
+}
+
+.container-header {
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+	height: 116px;
+}
+
+.logo {
+	position: absolute;
+    top: 50%;
+    margin-top: -21px;
+    left: 0px;
+    height: 42px;
+  }
+
+ .logo-pic-text {   /* этими свойствами можно спрятать текст */
+ 	position: absolute; 
+ 	left: -9999px; 
+ }
+
+.socials {
+	list-style: none;
+	position: absolute;
+	top: 50%;
+	margin-top: -23.5px;
+	right: 0px;
+	height: 47px;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+.socials-item {
+	display: inline-block;
+	margin-left: 24px;
+}
+
+.socials-link {
+	text-decoration: none;
+}
+
+.sprite-ico-vk {
+    width: 47px;
+    height: 47px;
+    background-position: -5px -161px;
+}
+
+.sprite-ico-vk:hover {
+    width: 47px;
+    height: 47px;
+    background-position: -62px -161px;
+}
+
+.sprite-ico-tw {
+    width: 47px;
+    height: 47px;
+    background-position: -180px -5px;
+}
+
+.sprite-ico-tw:hover {
+    width: 47px;
+    height: 47px;
+    background-position: -176px -62px;
+}
+
+.sprite-ico-fb {
+    width: 47px;
+    height: 47px;
+    background-position: -93px -5px;
+}
+
+.sprite-ico-fb:hover {
+    width: 47px;
+    height: 47px;
+    background-position: -5px -62px;
+}
+
+.sprite-ico-git {
+    width: 47px;
+    height: 47px;
+    background-position: -62px -62px;
+}
+
+.sprite-ico-git:hover {
+    width: 47px;
+    height: 47px;
+    background-position: -119px -62px;
+}
+
+.gradient {
+height: 3px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eff3f7+0,95b9c4+35,1c667a+50,95b9c4+65,eff3f7+100 */
+background: #eff3f7; /* Old browsers */
+background: -moz-linear-gradient(left,  #eff3f7 0%, #95b9c4 35%, #1c667a 50%, #95b9c4 65%, #eff3f7 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #eff3f7 0%,#95b9c4 35%,#1c667a 50%,#95b9c4 65%,#eff3f7 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #eff3f7 0%,#95b9c4 35%,#1c667a 50%,#95b9c4 65%,#eff3f7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff3f7', endColorstr='#eff3f7',GradientType=1 ); /* IE6-9 */
+}
+
+/* MAIN */
+
+/* FOOTER */
+.empty {
+	height: 78px; /*высота блока футер + ширина бордера*/
+}
+
+.footer {
+	height: 78px;
+	margin-top: -78px;
+	background-color: #eff3f7;
+	position: relative;
+	width: 100%;
+}
+
+.container-footer {
+	position: relative;
+	width: 390px;
+	margin: 0 auto;
+	height: 75px;
+}
+
+.copyright {
+	/* position: absolute;
+	top: 50%;
+	margin-top: -6.5px; */
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	height: 75px;
+}
