@@ -5,6 +5,7 @@ body, html {
 
 body {
 	background: url(../images/site-bg.png);
+	font-family: sans-serif;
 }
 
 .sprite {
@@ -134,7 +135,156 @@ background: linear-gradient(to right,  #eff3f7 0%,#95b9c4 35%,#1c667a 50%,#95b9c
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff3f7', endColorstr='#eff3f7',GradientType=1 ); /* IE6-9 */
 }
 
-/* MAIN */
+/* MAIN-CONTENT */
+
+.main-content {
+	position: relative;
+	width: 100%;
+}
+
+.container-main {
+	position: relative;
+	width: 961px;
+	margin: 39px auto;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+	float: left;
+	width: 250px;
+}
+
+/* NAV */
+
+.nav {
+	margin-bottom: 23px;
+	border-radius: 3px;
+	background-color: #eff3f7;
+}
+
+.nav-list {
+	list-style: none;
+	padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+	padding: 27px;
+}
+
+.nav-item-about {
+	background: #3ba8c0;
+	border-radius: 3px 3px 0 0;
+}
+
+.nav-item-contact {
+	border-radius: 0 0 3px 3px;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: #959aa8;
+	font-size: 21px;
+	width: 194px;
+	margin: 0 auto;
+}
+
+.nav-link:hover {
+	color: #3ba8c0;
+}
+
+.nav-link:active {
+	color: #ffffff;
+}
+
+.nav-link-about {
+	color: #ffffff;
+}
+
+.nav-bord {
+	background-color: #3ba8c0;
+	height: 2px;
+	width: 230px;
+	margin: 0 auto;
+}
+
+/* CONTACTS */
+
+.contacts {
+	margin-bottom: 23px;
+	border-radius: 3px;
+}
+
+.contacts-title {
+	color: #ffffff;
+	background-color: #3ba8c0;
+	padding: 21px 14px 21px 11px;
+	font-size: 21px;
+	border-radius: 3px 3px 0 0;
+}
+
+.contacts-list {
+	list-style: none;
+	padding: 0;
+    margin: 0;
+}
+
+.contacts-item {
+	padding: 12px 42px;
+}
+
+.contacts-item-email {
+	background-color: #41b9d4;
+}
+
+.sprite-ico-mail {
+    width: 21px;
+    height: 16px;
+    background-position: -57px -119px;
+    float: left;
+}
+
+.contacts-item-phone {
+	background-color: #48cbe8;
+}
+
+.sprite-ico-phone {
+    width: 19px;
+    height: 21px;
+    background-position: -124px -119px;
+    float: left;
+}
+
+.contacts-item-skype {
+	background-color: #51daf8;
+	border-radius: 0 0 3px 3px;
+}
+
+.sprite-ico-skype {
+    width: 20px;
+    height: 20px;
+    background-position: -153px -119px;
+    float: left;
+}
+
+.contacts-link {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 17px;
+	margin-left: 20px;
+}
+
+.contacts-link:hover {
+	text-decoration: underline;
+}
+
+/*ABOUT */
+
+.about {
+	float: right;
+	width: 250px;
+}
 
 /* FOOTER */
 .empty {
@@ -151,7 +301,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff3f7', end
 
 .container-footer {
 	position: relative;
-	width: 390px;
+	width: 410px;
 	margin: 0 auto;
 	height: 75px;
 }
@@ -164,4 +314,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff3f7', end
 	display: table-cell;
 	vertical-align: middle;
 	height: 75px;
+	font-size: 13px;
 }
