@@ -1,0 +1,151 @@
+/* NAV */
+
+.nav-item-about {
+	border-radius: 3px 3px 0 0;
+}
+
+.nav-item-work {
+	background: #3ba8c0;
+}
+
+.nav-item-contact {
+	border-radius: 0 0 3px 3px;
+}
+
+.nav-link-work {
+	color: #ffffff;
+}
+
+.nav-link-work:hover {
+	color: #ffffff;
+}
+
+/*WORK - page content */
+
+.work-section {
+	width: 650px;
+	background-color: #eff3f7;
+	border-radius: 3px;
+	margin-bottom: 26px;
+	padding-bottom: 1px;
+}
+
+.work-section-title {
+	font-size: 27px;
+	color: #3ba8c0;
+	padding: 24px 22px 24px;
+}
+
+.work-bord {
+	height: 2px;
+	background-color: #3ba8c0;
+	width: 202px;
+}
+
+.work-container {
+	width: 600px;
+	margin: 27px auto;
+}
+
+/* WORK - LIST */
+
+.work-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.work-item {
+	padding-bottom: 15px;
+	display: inline-block;
+	width: 183px;
+	min-height: 250px;
+	vertical-align: top;
+	margin: 5px;
+}
+
+.work-box {
+	position: relative;
+	width: 179px;
+	height: 125px;
+	border: 2px solid #3ba8c0;
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+.work-img {
+	width: 100%;
+}
+
+.work-view {
+	position: absolute;
+	opacity: 0;
+	height: 125px;
+	width: 179px;
+	top: 0;
+	left: 0;
+	background-color: #4191bb;
+}
+
+.site-title {
+	border: 2px solid #ffffff;
+	border-radius: 3px;
+	color: #ffffff;
+	margin: 55px auto;
+    padding: 0 5px;
+    display: block;
+    max-width: 80px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.work-view:hover {
+	opacity: 0.7;
+}
+
+.work-link {
+	color: #3ba8c0;
+	text-decoration: none;
+	display: block;
+    margin: 10px auto;
+    width: 80px;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.work-description {
+	font-size: 15px;
+	color: #4a545d;
+	text-align: center;
+}
+
+.work-add {
+	background-color: #ffffff;
+	border: 2px dashed #3ba8c0;
+}
+
+.add-link {
+	text-decoration: none;
+	color: ##3ba8c0;
+}
+
+.add-img {
+	height: auto;
+	margin: 0;
+	padding: 35px 75px 15px 75px;
+}
+
+.add-text {
+	color: #3ba8c0;
+	text-align: center;
+	margin: 0;
+	font-size: 13px;
+}
+
+
+
+
+
+
+
