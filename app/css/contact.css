@@ -1,0 +1,213 @@
+/* NAV */
+
+.nav-item-about {
+	border-radius: 3px 3px 0 0;
+}
+
+.nav-item-contact {
+	background: #3ba8c0;
+	border-radius: 0 0 3px 3px;
+}
+
+.nav-link-contact {
+	color: #ffffff;
+}
+
+.nav-link-contact:hover {
+	color: #ffffff;
+}
+
+/*CONTACT - page content */
+
+.contact-section {
+	width: 650px;
+	background-color: #eff3f7;
+	border-radius: 3px;
+	margin-bottom: 26px;
+	padding-bottom: 1px;
+}
+
+.contact-section-title-box {
+	background-color: #67dffa;
+	height: 139px;
+	width: 650px;
+	border-radius: 3px 3px 0 0;
+}
+
+.contact-section-title {
+	background-color: #48cbe8;
+	height: 121px;
+	width: 648px;
+	margin: 0 auto;
+	border-radius: 3px 3px 0 0;
+}
+
+.contact-section-title-text {
+	text-align: center;
+	padding-top: 50px;
+	font-size: 27px;
+	color: #ffffff;
+}
+
+.contact-container {
+	width: 410px;
+	margin: 40px auto;
+}
+
+/* CONTACT - FORM */
+
+.contact-form {
+	margin-bottom: 195px;
+}
+
+.form-box {
+	
+}
+
+.form-who {
+
+}
+
+.form-title {
+	color: #959aa8;
+	font-size: 19px;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.form-text {
+	color: #5acee9;
+	font-size: 13px;
+	border-radius: 2px 3px;
+	border: 2px solid #48cbe8;
+	background-color: #fbfcfd;
+	padding-left: 5px;
+}
+
+/*NAME*/
+
+.form-name {
+	float: left;
+	margin-bottom: 15px;
+}
+
+.name-title {
+
+}
+
+.name-text {
+	width: 190px;
+	height: 40px;
+}
+
+/*EMAIL*/
+.form-email {
+	float: right;
+	margin-bottom: 15px;
+}
+
+.email-title {
+
+}
+
+.email-text {
+	width: 190px;
+	height: 40px;
+}
+
+/*MESSAGE*/
+.form-message {
+	margin-bottom: 15px;
+}
+
+.message-title {
+
+}
+
+.message-text {
+	width: 400px;
+	height: 180px;
+	padding-top: 10px;
+	color: #5acee9;
+	resize: none;
+}
+
+/*CAPTCHA*/
+.form-captcha {
+	margin-bottom: 15px;
+}
+
+.captcha-title {
+
+}
+
+.captcha-img-box {
+	float: left;
+	width: 190px;
+	height: 80px;
+	background-color: #ffffff;
+	border-radius: 2px 3px;
+	border: 2px solid #48cbe8;
+	overflow: hidden;
+}
+
+.captcha-img {
+	width: 80%;
+    margin: 20px auto;
+    display: block;
+}
+
+.captcha-text {
+	float: right;
+	width: 190px;
+	height: 30px;
+}
+
+/*BUTTONS*/
+.form-buttons {
+
+}
+
+.button-box {
+	color: #ffffff;
+	width: 137px;
+}
+
+.button-style {
+	font-size: 19px;
+	height: 33px;
+	padding: 1px 22px;
+    border-style: solid;
+    border-width: 0 0 2px;
+    border-radius: 5px;
+}
+
+/*SEND-button*/
+.button-send-box {
+	float: left;
+}
+
+.button-send {
+	border-color: #3ba8c0;
+    background-color: #48cbe8;
+    outline: none;
+}
+
+.button-send:hover {
+	border: none;
+}
+
+/*CLEAR-button*/
+.button-clear-box {
+	float: right;
+}
+
+.button-clear {
+	border-color: #687b8f;
+    background: #849db5;
+    outline: none;
+}
+
+.button-clear:hover {
+	border: none;
+}

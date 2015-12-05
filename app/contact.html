@@ -19,7 +19,7 @@
 	<!--CSS-->
 	<link rel="stylesheet" href="bower/normalize-css/normalize.css">
 	<link rel="stylesheet" href="css/all-pages.css">
-	<link rel="stylesheet" href="css/mywork.css">
+	<link rel="stylesheet" href="css/contact.css">
 	<!--modernizr-->
 	<script src="/js/modernizr.js"></script>
 	<!--[if lt IE 9]>
@@ -73,6 +73,7 @@
 									Обо мне
 								</a>
 							</li>
+							<div class="nav-bord"></div>
 							<li class="nav-item nav-item-work">
 								<a href="mywork.html" class="nav-link nav-link-work">
 									Мои работы
@@ -108,64 +109,46 @@
 					</div>
 				</aside>
 				<div class="page-content">
-					<section class="work-section">
-						<div class="work-section-title">
-						Мои работы
+					<section class="contact-section">
+						<div class="contact-section-title-box">
+							<div class="contact-section-title">
+								<p class="contact-section-title-text">У вас интересный проект? Напишите мне</p>
+							</div>
 						</div>
-						<div class="work-bord"></div>
-						<div class="work-container">
-							<ul class="work-list">
-								<li class="work-item">
-									<div class="work-box">
-										<img src="images/site1.png" alt="Site 1" class="work-img">
-										<div class="work-view">
-											<a class="site-title" href="">название</a>
+						<div class="contact-container">
+							<div class="contact-form">
+								<form action="server" class="form-box">
+									<div class="form-who clearfix">
+										<div class="form-name">
+											<label for="name" class="name-title form-title">Имя</label>
+											<input type="text" placeholder="Как к Вам обращаться" class="name-text form-text">
+										</div>
+										<div class="form-email">
+											<label for="email" class="email-title form-title">Email</label>
+											<input type="text" placeholder="Куда мне писать" class="email-text form-text">
 										</div>
 									</div>
-									<a class="work-link">www.site.ru</a>
-									<div class="work-description">Информация о проекте 1 превью 2 строки....</div>
-								</li>
-								<li class="work-item">
-									<div class="work-box">
-										<img src="images/site2.png" alt="Site 1" class="work-img">
-										<div class="work-view">
-											<a class="site-title" href="">название</a>
+									<div class="form-message">
+										<label for="message" class="message-title form-title">Сообщение</label>
+										<textarea type="text" placeholder="Кратко в чем суть" class="message-text form-text"></textarea>
+									</div>
+									<div class="form-captcha clearfix">
+										<label for="captcha" class="captcha-title form-title">Введите код, указанный на картинке</label>
+										<div class="captcha-img-box">
+											<img src="images/captcha.png" alt="captcha" class="captcha-img">
 										</div>
+										<input type="text" placeholder="Введите код" class="captcha-text form-text">
 									</div>
-									<a class="work-link">www.site.ru</a>
-									<div class="work-description">Информация о проекте 1 превью 2 строки....</div>
-								</li>
-								<li class="work-item">
-									<div class="work-box">
-										<img src="images/site3.png" alt="Site 1" class="work-img">
-										<div class="work-view">
-											<a class="site-title" href="">название</a>
+									<div class="form-buttons clearfix">
+										<div class="button-send-box button-box">
+											<button class="button-send button-style" type="submit">Отправить</button>
 										</div>
+										<div class="button-clear-box button-box">
+											<button class="button-clear button-style" type="reset">Очистить</button>
+0										</div>
 									</div>
-									<a class="work-link">www.site.ru</a>
-									<div class="work-description">Информация о проекте 1 превью 2 строки....</div>
-								</li>
-								<li class="work-item">
-									<div class="work-box">
-										<img src="images/site4.png" alt="Site 1" class="work-img">
-										<div class="work-view">
-											<a class="site-title" href="">название</a>
-										</div>
-									</div>
-									<a class="work-link">www.site.ru</a>
-									<div class="work-description">Информация о проекте 1 превью 2 строки....</div>
-								</li>
-								<li class="work-item">
-									<div class="work-box work-add">
-										<a href="" class="add-link">
-											<img src="images/add-newsite.png" alt="Site 1" class="add-img">
-											<div class="add-text">
-												Добавить проект
-											</div>
-										</a>
-									</div>
-								</li>
-							</ul>
+								</form>
+							</div>
 						</div>
 					</section>
 				</div>
