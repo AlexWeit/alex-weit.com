@@ -9,7 +9,7 @@ body {
 }
 
 .sprite {
-    background-image: url(spritesheet.png);
+    /* background-image: url(spritesheet.png); */
     background-repeat: no-repeat;
     display: block;
     content: " ";
@@ -125,7 +125,7 @@ body {
     background-position: -119px -62px;
 }
 
-.gradient {
+.gradient-line {
 height: 3px;
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eff3f7+0,95b9c4+35,1c667a+50,95b9c4+65,eff3f7+100 */
 background: #eff3f7; /* Old browsers */
@@ -146,6 +146,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff3f7', end
 	position: relative;
 	width: 961px;
 	margin: 39px auto;
+}
+
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
 }
 
 /* SIDEBAR */
@@ -173,15 +182,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff3f7', end
 	padding: 27px;
 }
 
-.nav-item-about {
-	background: #3ba8c0;
-	border-radius: 3px 3px 0 0;
-}
-
-.nav-item-contact {
-	border-radius: 0 0 3px 3px;
-}
-
 .nav-link {
 	text-decoration: none;
 	color: #959aa8;
@@ -195,10 +195,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff3f7', end
 }
 
 .nav-link:active {
-	color: #ffffff;
-}
-
-.nav-link-about {
 	color: #ffffff;
 }
 
@@ -243,6 +239,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff3f7', end
     height: 16px;
     background-position: -57px -119px;
     float: left;
+    margin-top: 10px;
 }
 
 .contacts-item-phone {
@@ -273,6 +270,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff3f7', end
 	color: #ffffff;
 	font-size: 17px;
 	margin-left: 20px;
+	cursor: pointer;
+	float: right;
+	width: 125px;
 }
 
 .contacts-link:hover {
@@ -281,9 +281,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff3f7', end
 
 /*ABOUT */
 
-.about {
+.page-content {
 	float: right;
-	width: 250px;
+	width: 650px;
 }
 
 /* FOOTER */
@@ -295,15 +295,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff3f7', end
 	height: 78px;
 	margin-top: -78px;
 	background-color: #eff3f7;
-	position: relative;
+	/* position: relative; */
 	width: 100%;
 }
 
 .container-footer {
 	position: relative;
-	width: 410px;
+	width: 920px;
 	margin: 0 auto;
 	height: 75px;
+}
+
+.sprite-ico-lock {
+    width: 20px;
+    height: 32px;
+    background-position: -150px -5px;
+    float: left;
+    cursor: pointer;
+    margin-right: 250px;
+    margin-top: 21.5px;
+}
+
+.sprite-ico-lock:hover {
+    width: 20px;
+    height: 32px;
+    background-position: -183px -119px;
 }
 
 .copyright {
@@ -315,4 +331,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff3f7', end
 	vertical-align: middle;
 	height: 75px;
 	font-size: 13px;
+	width: 410px;
 }

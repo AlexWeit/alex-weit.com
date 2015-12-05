@@ -1,12 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<!--кодировка-->
 	<meta charset="UTF-8">
+	<!--IE переключить на последнюю верчию-->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!--масштабирование на разных устройствах-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>
 		alex-weit.com
 	</title>
+	<!--SEO-->
+	<meta name="desctiprion" content="">
+	<meta name="frontend" content="">
+	<meta name="AlexWeit" content="">
+	<!--favicon-->
+	<link rel="" href="">
+	<!--CSS-->
 	<link rel="stylesheet" href="bower/normalize-css/normalize.css">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/all-pages.css">
+	<link rel="stylesheet" href="css/main-page.css">
+	<!--modernizr-->
+	<script src="/js/modernizr.js"></script>
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+		</script>
+	<![endif]-->
 </head>
 <body>
 	<div class="wrapper">
@@ -20,32 +39,32 @@
 				</div>
 				<ul class="socials">
 					<li class="socials-item">
-						<a class="socials-link" href="vk.com">
+						<a class="socials-link" href="https://www.vk.com/wunya">
 							<i class="sprite sprite-ico-vk"></i>
 						</a>
 					</li>
 					<li class="socials-item">
-						<a class="socials-link" href="twitter.com">
+						<a class="socials-link" href="https://www.twitter.com">
 							<i class="sprite sprite-ico-tw"></i>
 						</a>
 					</li>
 					<li class="socials-item">
-						<a class="socials-link" href="facebook.com">
+						<a class="socials-link" href="https://www.facebook.com/alexandra.pasyuta.1">
 							<i class="sprite sprite-ico-fb"></i>
 						</a>
 					</li>
 					<li class="socials-item">
-						<a class="socials-link" href="github.com">
+						<a class="socials-link" href="https://www.github.com/AlexWeit">
 							<i class="sprite sprite-ico-git"></i>
 						</a>
 					</li>
 				</ul>
 			</div>
-			<div class="gradient"></div>
+			<div class="gradient-line"></div>
 			<!--  -->
 		</header>
 		<div class="main-content">
-			<div class="container container-main"> <!--контейнер выравнивается по центру экрана--> <!--Доп класс для того чтобы задать ширину-->
+			<div class="container container-main clearfix"> <!--контейнер выравнивается по центру экрана--> <!--Доп класс для того чтобы задать ширину-->
 				<aside class="sidebar">
 					<nav class="nav">
 						<ul class="nav-list">
@@ -72,30 +91,96 @@
 						Контакты	
 						</div>
 						<ul class="contacts-list">
-								<li class="contacts-item contacts-item-email">
+								<li class="contacts-item contacts-item-email clearfix">
 									<i class="sprite sprite-ico-mail"></i>
-									<a href="" class="contacts-link">E-Mail</a>
+									<a href="mailto:alexandra.pasyuta@gmail.com" class="contacts-link">
+										alexandra.pasyuta @gmail.com
+									</a>
 								</li>
-								<li class="contacts-item contacts-item-phone">
+								<li class="contacts-item contacts-item-phone clearfix">
 									<i class="sprite sprite-ico-phone"></i>
-									<a href="" class="contacts-link">Телефон</a>
+									<a href="tel:+79035112022" class="contacts-link">+79035112022</a>
 								</li>
-								<li class="contacts-item contacts-item-skype">
+								<li class="contacts-item contacts-item-skype clearfix">
 									<i class="sprite sprite-ico-skype"></i>
-									<a href="" class="contacts-link">Skype</a>
+									<a href="skype:sashulya90" class="contacts-link">sashulya90</a>
 								</li>
 							</ul>
 					</div>
 				</aside>
-				<div class="about">
+				<div class="page-content">
 					<section class="about-section">
-						Осн. инфо
+						<div class="about-section-title">
+						Основная информация
+						</div>
+						<div class="about-bord bord-main-info"></div>
+						<div class="about-container clearfix">
+							<div class="avatar-box">
+								<div class="avatar">
+									<img src="images/avatar.png" alt="Александра" class="avatar-img">
+								</div>
+							</div>
+							<ul class="main-info-list">
+								<li class="main-info-item">
+									<span class="bold-main-info">Меня зовут: </span> Вейт Александра Александровна
+								</li>
+								<li class="main-info-item">
+									<span class="bold-main-info">Мой возраст: </span> 25 лет
+								</li>
+								<li class="main-info-item">
+									<span class="bold-main-info">Мой город: </span> Москва, Росия
+								</li>
+								<li class="main-info-item">
+									<span class="bold-main-info">Моя специализация: </span>FRONTEND разработчик
+								</li>
+								<li class="main-info-item clearfix">
+									<span class="bold-main-info">Ключевые навыки: </span>
+									<ul class="skills-box">
+										<li class="skills-item gradient-button">html</li>
+										<li class="skills-item gradient-button">css</li>
+										<li class="skills-item gradient-button">javascript</li>
+										<li class="skills-item gradient-button">gulp</li>
+										<li class="skills-item gradient-button">git</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
 					</section>
 					<section class="about-section">
+						<div class="about-section-title">
 						Опыт работы
+						</div>
+						<div class="about-bord bord-work"></div>
+						<div class="about-container">
+							<ul class="about-list">
+								<li class="about-item ico-bag">
+									<div class="about-name">ООО "Академсервис" - менеджер</div>
+									<div class="about-time">Октябрь 2013 - Август 2014</div>
+								</li>
+								<li class="about-item ico-bag">
+									<div class="about-name">ЗАО "Инфорус" - специалист по документообороту</div>
+									<div class="about-time">Февраль 2015 - по настоящее время</div>
+								</li>
+							</ul>
+						</div>
 					</section>
 					<section class="about-section">
+						<div class="about-section-title">
 						Образование
+						</div>
+						<div class="about-bord bord-educate"></div>
+						<div class="about-container">
+							<ul class="about-list">
+								<li class="about-item ico-hat">
+									<div class="about-name">"МГУ им. М.В.Ломоносова" - социолог, преподаватель</div>
+									<div class="about-time">Сентябрь 2006 - Июль 2012</div>
+								</li>
+								<li class="about-item ico-paper">
+									<div class="about-name">Курсы Loftschool.com</div>
+									<div class="about-time">Ноябрь 2015 - по настоящее время</div>
+								</li>
+							</ul>
+						</div>
 					</section>
 				</div>
 			</div>
@@ -103,8 +188,9 @@
 		<div class="empty"></div>
 	</div><!--end wrapper-->
 	<footer class="footer">
-		<div class="gradient"></div>
-		<div class="container container-footer">
+		<div class="gradient-line"></div>
+		<div class="container container-footer clearfix">
+			<i class="sprite sprite-ico-lock"></i>
 			<div class="copyright">
 				© 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его
 			</div>

@@ -1,0 +1,189 @@
+.nav-item-about {
+	background: #3ba8c0;
+	border-radius: 3px 3px 0 0;
+}
+
+.nav-item-contact {
+	border-radius: 0 0 3px 3px;
+}
+
+.nav-link-about {
+	color: #ffffff;
+}
+
+.nav-link-about:hover {
+	color: #ffffff;
+}
+
+/*ABOUT - page content */
+
+.about-section {
+	width: 650px;
+	background-color: #eff3f7;
+	border-radius: 3px;
+	margin-bottom: 26px;
+	padding-bottom: 1px;
+}
+
+.about-section-title {
+	font-size: 27px;
+	color: #3ba8c0;
+	padding: 24px 22px 24px;
+}
+
+.about-bord {
+	height: 2px;
+	background-color: #3ba8c0;
+}
+
+.about-container {
+	width: 550px;
+	margin: 27px auto;
+}
+
+/* ABOUT - MAIN INFO */
+
+.bord-main-info {
+	width: 341px;
+}
+
+.avatar-box {
+	width: 150px;
+	float: left;
+}
+
+.avatar {
+	height: 140px;
+	width: 140px;
+	border-radius: 50%;
+	border: 5px solid #22a1b9;
+	overflow: hidden;
+}
+
+.avatar-img {
+	width: 110%;
+}
+
+.main-info-list {
+	float: right;
+	list-style: none;
+	width: 370px;
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+}
+
+.main-info-item {
+	padding-bottom: 15px;
+}
+
+.bold-main-info {
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.skills-box {
+	width: 200px;
+	float: right;
+	padding: 0;
+}
+
+.skills-item {
+	display: inline-block;
+	height: 19px;
+	border-radius: 2px;
+	font-weight: bold;
+	color: #ffffff;
+	margin-right: 5px;
+	margin-bottom: 8px;
+	padding: 3px 13px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 17px;
+}
+
+.gradient-button {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3ba8c0+0,54a3ee+50,3690f0+51,2e8ca2+100 */
+background: #3ba8c0; /* Old browsers */
+background: -moz-linear-gradient(top,  #3ba8c0 0%, #54a3ee 50%, #3690f0 51%, #2e8ca2 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #3ba8c0 0%,#54a3ee 50%,#3690f0 51%,#2e8ca2 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #3ba8c0 0%,#54a3ee 50%,#3690f0 51%,#2e8ca2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ba8c0', endColorstr='#2e8ca2',GradientType=0 ); /* IE6-9 */
+border-radius: 2px;
+}
+
+/* ABOUT WORK */
+
+.bord-work {
+	width: 209px;
+}
+
+/* ABOUT EDUCATION */
+
+.bord-educate {
+	width: 214px;
+}
+
+/* ABOUT WORK + EDUCATION */
+
+.about-list {
+	list-style: none;
+	padding: 0;
+    margin: 0 0 0 57px;
+}
+
+.about-item {
+	padding-bottom: 15px;
+	position: relative;
+}
+
+.about-name {
+	font-size: 17px;
+	line-height: 25px;
+}
+
+.about-time {
+	font-size: 15px;
+}
+
+.ico-bag:before {
+	background-image: url(../images/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+	width: 36px;
+    height: 34px;
+    background-position: -47px -5px;
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: -61px;
+    margin: -24px 0 0 0;
+}
+
+.ico-hat:before {
+	background-image: url(../images/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+	width: 42px;
+    height: 23px;
+    background-position: -5px -119px;
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: -61px;
+    margin: -24px 0 0 0;
+}
+
+.ico-paper:before {
+	background-image: url(../images/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+	width: 26px;
+    height: 32px;
+    background-position: -88px -119px;
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: -52px;
+    margin: -24px 0 0 0;
+}
