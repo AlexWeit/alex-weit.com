@@ -100,6 +100,8 @@
 	font-size: 14px;
 	text-align: center;
 	line-height: 17px;
+	font-family: 'ProximaNovaCond-Semibold', sans-serif;
+	font-stretch: condensed;
 }
 
 .gradient-button {
