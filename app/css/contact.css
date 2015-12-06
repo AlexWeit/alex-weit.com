@@ -7,6 +7,10 @@
 .nav-item-contact {
 	background: #3ba8c0;
 	border-radius: 0 0 3px 3px;
+	margin: 0;
+    border-bottom: none;
+    padding-left: 10px;
+    margin-bottom: -2px;
 }
 
 .nav-link-contact {
@@ -45,6 +49,7 @@
 .contact-section-title-text {
 	text-align: center;
 	padding-top: 50px;
+	margin: 0;
 	font-size: 27px;
 	color: #ffffff;
 }

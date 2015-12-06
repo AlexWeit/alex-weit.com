@@ -1,6 +1,10 @@
 .nav-item-about {
 	background: #3ba8c0;
 	border-radius: 3px 3px 0 0;
+	margin: 0;
+    border-bottom: none;
+    padding-left: 10px;
+    margin-bottom: -2px;
 }
 
 .nav-item-contact {
@@ -77,10 +81,20 @@
 	padding-bottom: 15px;
 }
 
-.bold-main-info {
+.main-info-title {
+	float: left;
 	font-weight: bold;
 	font-size: 17px;
 }
+
+.main-info-text {
+	float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    line-height: 19px;
+    max-width: 257px;
+}
+
 
 .skills-box {
 	width: 200px;
@@ -95,7 +109,7 @@
 	font-weight: bold;
 	color: #ffffff;
 	margin-right: 5px;
-	margin-bottom: 8px;
+	margin-bottom: 10px;
 	padding: 3px 13px;
 	font-size: 14px;
 	text-align: center;

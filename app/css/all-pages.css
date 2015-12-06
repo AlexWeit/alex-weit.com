@@ -6,6 +6,8 @@ body, html {
 body {
 	background: url(../images/site-bg.png);
 	font: normal 1em 'fira_sanslight' sans-serif;
+	min-width: 1400px;
+	color: #4a545d;
 }
 
 .sprite {
@@ -71,6 +73,10 @@ body {
 .socials-item {
 	display: inline-block;
 	margin-left: 24px;
+}
+
+.socials-item:first-child {
+    margin-left: 0;
 }
 
 .socials-link {
@@ -179,15 +185,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff3f7', end
 }
 
 .nav-item {
-	padding: 27px;
+	padding: 27px 0;
+	margin: 0 10px;
+	border-top: 2px solid #3ba8c0;
+}
+
+.nav-item:first-child {
+    border-top: none;
 }
 
 .nav-link {
 	text-decoration: none;
 	color: #959aa8;
-	font-size: 21px;
+	font-size: 23px;
 	width: 194px;
-	margin: 0 auto;
+	margin-left: 16px;
+    padding: 20px 0px;
 }
 
 .nav-link:hover {
@@ -196,13 +209,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff3f7', end
 
 .nav-link:active {
 	color: #ffffff;
-}
-
-.nav-bord {
-	background-color: #3ba8c0;
-	height: 2px;
-	width: 230px;
-	margin: 0 auto;
 }
 
 /* CONTACTS */
@@ -215,7 +221,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff3f7', end
 .contacts-title {
 	color: #ffffff;
 	background-color: #3ba8c0;
-	padding: 21px 14px 21px 11px;
+	padding: 14px 21px 11px;
 	font-size: 21px;
 	border-radius: 3px 3px 0 0;
 }
