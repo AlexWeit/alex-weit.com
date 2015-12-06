@@ -1,10 +1,10 @@
 .nav-item-about {
-	background: #3ba8c0;
 	border-radius: 3px 3px 0 0;
+	/*background: #3ba8c0;
 	margin: 0;
     border-bottom: none;
     padding-left: 10px;
-    margin-bottom: -2px;
+    margin-bottom: -2px;*/
 }
 
 .nav-item-contact {
@@ -32,7 +32,7 @@
 .about-section-title {
 	font-size: 27px;
 	color: #3ba8c0;
-	padding: 24px 22px 24px;
+	padding: 15px 21px 10px;
 }
 
 .about-bord {
@@ -41,8 +41,8 @@
 }
 
 .about-container {
-	width: 550px;
-	margin: 27px auto;
+	width: 543px;
+    margin: 17px auto 30px;
 }
 
 /* ABOUT - MAIN INFO */
@@ -54,6 +54,7 @@
 .avatar-box {
 	width: 150px;
 	float: left;
+	margin-top: 18px;
 }
 
 .avatar {
@@ -78,7 +79,7 @@
 }
 
 .main-info-item {
-	padding-bottom: 15px;
+	padding-bottom: 6px;
 }
 
 .main-info-title {
@@ -89,8 +90,8 @@
 
 .main-info-text {
 	float: left;
-    margin-left: 20px;
-    margin-top: 5px;
+    margin-left: 21px;
+    margin-top: 6px;
     line-height: 19px;
     max-width: 257px;
 }
@@ -100,20 +101,22 @@
 	width: 200px;
 	float: right;
 	padding: 0;
+	margin-top: 3px;
 }
 
 .skills-item {
 	display: inline-block;
-	height: 19px;
+	height: 13px;
 	border-radius: 2px;
 	font-weight: bold;
 	color: #ffffff;
-	margin-right: 5px;
-	margin-bottom: 10px;
-	padding: 3px 13px;
+	    margin-right: -2px;
+    margin-bottom: 10px;
+    margin-left: 6px;
+    padding: 3px 14px;
 	font-size: 14px;
 	text-align: center;
-	line-height: 17px;
+	line-height: 13px;
 	font-family: 'ProximaNovaCond-Semibold', sans-serif;
 	font-stretch: condensed;
 }
@@ -145,11 +148,12 @@ border-radius: 2px;
 .about-list {
 	list-style: none;
 	padding: 0;
-    margin: 0 0 0 57px;
+    margin: 0 0 0 65px;
 }
 
 .about-item {
-	padding-bottom: 15px;
+	padding-bottom: 12px;
+    padding-left: 5px;
 	position: relative;
 }
 
