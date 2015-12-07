@@ -83,7 +83,7 @@
 .work-view {
 	position: absolute;
 	opacity: 0;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* opacity IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* opacity IE 8 */
 	height: 125px;
 	width: 179px;
 	top: 0;
@@ -106,7 +106,7 @@
 
 .work-view:hover {
 	opacity: 0.7;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* opacity IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; /* opacity IE 8 */
 }
 
 .work-link {
