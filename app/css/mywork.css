@@ -129,11 +129,8 @@
 .work-add {
 	background-color: #edf8fc;
 	border: 2px dashed #3ba8c0;
-}
-
-.add-link {
-	text-decoration: none;
-	color: ##3ba8c0;
+    display: block;
+    text-decoration: none;
 }
 
 .add-img {

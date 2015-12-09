@@ -84,6 +84,11 @@ body {
 	text-decoration: none;
 }
 
+.ico-text {        /* этими свойствами можно спрятать текст */
+    position: absolute;
+    right: -9999px;
+}
+
 .sprite-ico-vk {
     width: 47px;
     height: 47px;
