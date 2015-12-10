@@ -1,0 +1,154 @@
+/* POP-UP add-project*/
+#add-project-popup {
+	display: none;
+}
+
+.modal-wrapper {
+	width: 362px;
+	background-color: #eff3f7;
+}
+
+.modal-header-box {
+	height: 53px;
+	background: #67dffa;
+}
+
+.modal-header {
+	height: 44px;
+	background: #48cbe8;
+}
+
+.modal-title {
+	color: #ffffff;
+	font-size: 25px;
+	margin: 0;
+    width: 318px;
+    float: left;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.b-close {
+	background: url(../images/close.png);
+	height: 24px;
+    width: 24px;
+    float: right;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    background-size: 100%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.modal-body {
+	padding-bottom: 23px;
+}
+
+#add-new-project {
+	width: 322px;
+	margin: 0 auto;
+}
+
+.form-group {
+	margin-top: 5px;
+}
+
+.add-label {
+	color: #959aa8;
+	font-size: 17px;
+	display: block;
+}
+
+.add-input {
+	color: #5acee9;
+	font-size: 13px;
+	border: 1px solid #48cbe8;
+	border-radius: 3px;
+	width: 313px;
+    height: 35px;
+    padding-left: 7px;
+    background-color: #fbfcfd;
+}
+
+.add-textarea {
+	color: #5acee9;
+	font-size: 13px;
+	border: 1px solid #48cbe8;
+	border-radius: 3px;
+	width: 313px;
+    /*height: 100px;*/
+    padding-left: 7px;
+    resize: none;
+}
+
+/* placeholder start*/
+::-webkit-input-placeholder {
+   color: #5acee9;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #5acee9;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #5acee9;  
+}
+
+:-ms-input-placeholder {  
+   color: #5acee9;  
+}
+/* placeholder end*/
+
+#uploadfile {
+	position: relative;
+}
+
+#fileupload {
+	/*font-size: 29px;*/
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* opacity IE 8 */
+    width: 53px;
+    height: 39px;
+    overflow: hidden;
+}
+
+.fileupload-lable {
+	position: absolute;
+	right: 0;
+	background-image: url(../images/img-download.png);
+    background-size: 70%;
+    background-color: #48cbe8;
+    width: 53px;
+    height: 39px;
+    background-repeat: no-repeat;
+    background-position: 8px 5px;
+    border-radius: 0px 3px 3px 0px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/*button*/
+.button-add-box {
+	color: #ffffff;
+	width: 130px;
+	margin: 5px auto;
+}
+
+.button-add {
+	font-size: 19px;
+	height: 33px;
+	padding: 1px 22px;
+    border-style: solid;
+    border-width: 0 0 2px;
+    border-radius: 5px;
+    border-color: #3ba8c0;
+    background-color: #48cbe8;
+    outline: none;
+}
+
+.button-add:hover {
+	border: none;
+}
+
+
+

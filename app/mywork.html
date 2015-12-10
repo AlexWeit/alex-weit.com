@@ -25,6 +25,7 @@
 	<!--CSS-->
 	<link rel="stylesheet" href="css/all-pages.css">
 	<link rel="stylesheet" href="css/mywork.css">
+	<link rel="stylesheet" href="css/modal.css">
 	<!--modernizr-->
 	<script src="bower/modernizr/modernizr.js"></script>
 	<!--[if lt IE 9]>
@@ -128,44 +129,44 @@
 									<div class="work-box">
 										<img src="images/site1.png" alt="Site 1" class="work-img">
 										<div class="work-view">
-											<a class="site-title" href="">название</a>
+											<a class="site-title" href="#">название</a>
 										</div>
 									</div>
-									<a class="work-link">www.site.ru</a>
+									<a class="work-link" href="#">www.site.ru</a>
 									<div class="work-description">Информация о проекте 1 превью 2 строки....</div>
 								</li>
 								<li class="work-item">
 									<div class="work-box">
 										<img src="images/site2.png" alt="Site 1" class="work-img">
 										<div class="work-view">
-											<a class="site-title" href="">название</a>
+											<a class="site-title" href="#">название</a>
 										</div>
 									</div>
-									<a class="work-link">www.site.ru</a>
+									<a class="work-link" href="#">www.site.ru</a>
 									<div class="work-description">Информация о проекте 1 превью 2 строки....</div>
 								</li>
 								<li class="work-item">
 									<div class="work-box">
 										<img src="images/site3.png" alt="Site 1" class="work-img">
 										<div class="work-view">
-											<a class="site-title" href="">название</a>
+											<a class="site-title" href="#">название</a>
 										</div>
 									</div>
-									<a class="work-link">www.site.ru</a>
+									<a class="work-link" href="#">www.site.ru</a>
 									<div class="work-description">Информация о проекте 1 превью 2 строки....</div>
 								</li>
 								<li class="work-item">
 									<div class="work-box">
 										<img src="images/site4.png" alt="Site 1" class="work-img">
 										<div class="work-view">
-											<a class="site-title" href="">название</a>
+											<a class="site-title" href="#">название</a>
 										</div>
 									</div>
-									<a class="work-link">www.site.ru</a>
+									<a class="work-link" href="#">www.site.ru</a>
 									<div class="work-description">Информация о проекте 1 превью 2 строки....</div>
 								</li>
 								<li class="work-item">
-									<a href="" class="work-box work-add">
+									<a id="add-new-item" href="#" class="work-box work-add">
 										<img src="images/add-newsite.png" alt="Site 1" class="add-img">
 										<div class="add-text">
 										    Добавить проект
@@ -175,6 +176,47 @@
 							</ul>
 						</div>
 					</section>
+					<div id="add-project-popup">
+						<div class="modal-wrapper">
+							<div class="modal-header-box">
+								<div class="modal-header clearfix">
+									<p class="modal-title">Добавление проекта</p>
+									<button type="button" class="b-close"></button>
+								</div>
+							</div>
+							<div class="modal-body">
+								<form id="add-new-project" role="form" class="form">
+									<div class="server-mes error-mes"></div>
+									<div class="server-mes success-mes"></div>
+									<div class="form-group">
+										<label for="projectName" class="add-label">Название проекта</label>
+										<input id="projectName" name="projectName" type="text" placeholder="Введите название" qtip-content="Вы не ввели название" class="add-input">
+									</div>
+									<div class="form-group">
+										<div id="uploadfile" class="fileupload-wrapper">
+											<span class="add-label">Картинка проекта</span>
+											<label class="fileupload-lable">
+												<input id="fileupload" type="file" name="files[]" class="fileupload">
+												<input id="fileurl" type="hidden" name="fileurl">
+											</label>
+											<input id="filename" name="filename" placeholder="Загрузите изображение" disabled qtip-content="Вы не выбрали изображение" class="add-input">
+										</div>
+									</div>
+									<div class="form-group">
+										<label for="projectUrl" class="add-label">URL проекта</label>
+										<input id="projectUrl" name="projectUrl" type="text" placeholder="Добавьте ссылку" qtip-content="Вы не добавили ссылку" class="add-input">
+									</div>
+									<div class="form-group">
+										<label for="projectDesc" class="add-label">Описание</label>
+										<textarea id="projectDesc" type="text" name="text" rows="3" placeholder="Пара слов о Вашем проекте" qtip-content="Описание проекта обязательно" class="add-textarea"></textarea>
+									</div>
+									<div class="button-add-box">
+										<button type="submit" class="button-add">Добавить</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -189,9 +231,13 @@
 			</div>
 		</div> 
 	</footer>
-	<!--JS
-	<script src="bower/jquery/jquery.js"></script>
+	<!--JS-->
+	<script src="bower/jquery/dist/jquery.js"></script>
+	<script src="bower/bPopup/jquery.bpopup.js"></script>
+	<script src="js/add_project.js"></script>
+	<!--
 	<script src="js/main.js"></script>
 	-->
+	
 </body>
 </html>
