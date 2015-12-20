@@ -60,6 +60,11 @@ body {
  	left: -9999px; 
  }
 
+.logo-link {
+    display: block;
+    height: inherit;
+}
+
 .socials {
 	list-style: none;
 	position: absolute;
@@ -387,5 +392,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff3f7', end
 
 /*placeholder for IE8 */
 .placeholder {
-	color: #5acee9 !important;
+	color: #5acee9;
 }

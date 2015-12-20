@@ -103,4 +103,7 @@ var validation = (function (){
 
 })();
 
-validation.init();
+// Вызываем модуль если есть добавление проекта и форма контактов на странице
+if ('#add-new-item, #contact-form') {
+    validation.init();
+}

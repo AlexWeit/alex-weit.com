@@ -42,7 +42,7 @@ var myAddProjectModal = (function () {
     var _changeFileUpload = function () {
         console.log('Вывод имени загруженного файла');
         var input = $(this), // инпут type="file"
-                        name = input[0].files[0].name; // имя загруженного файла
+                        name = _getNameFromPath(input.val()); // имя загруженного файла
         $('#filename')
                 .val(name) // изменить имя загруженного файла
                 .trigger('hideTooltip')
