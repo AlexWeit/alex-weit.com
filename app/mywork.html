@@ -19,6 +19,8 @@
 	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 	<!--normalize-->
 	<link rel="stylesheet" href="bower/normalize-css/normalize.css">
+	<!--qtip-->
+	<link rel="stylesheet" href="bower/qtip2/jquery.qtip.css">
 	<!--fonts-->
 	<link rel="stylesheet" href="fonts/Fira/fira.css">
 	<link rel="stylesheet" href="fonts/Proxima-Nova/proxima.css">
@@ -181,7 +183,7 @@
 							<div class="modal-header-box">
 								<div class="modal-header clearfix">
 									<p class="modal-title">Добавление проекта</p>
-									<button type="button" class="b-close"></button>
+									<button id="b-close-addform" type="button" class="b-close"></button>
 								</div>
 							</div>
 							<div class="modal-body">
@@ -190,7 +192,7 @@
 									<div class="server-mes success-mes"></div>
 									<div class="form-group">
 										<label for="projectName" class="add-label">Название проекта</label>
-										<input id="projectName" name="projectName" type="text" placeholder="Введите название" qtip-content="Вы не ввели название" class="add-input">
+										<input id="projectName" name="projectName" type="text" placeholder="Введите название" qtip-position="left" qtip-content="Вы не ввели название" class="add-input">
 									</div>
 									<div class="form-group">
 										<div id="uploadfile" class="fileupload-wrapper">
@@ -199,16 +201,16 @@
 												<input id="fileupload" type="file" name="files[]" class="fileupload">
 												<input id="fileurl" type="hidden" name="fileurl">
 											</label>
-											<input id="filename" name="filename" placeholder="Загрузите изображение" disabled qtip-content="Вы не выбрали изображение" class="add-input">
+											<input id="filename" name="filename" placeholder="Загрузите изображение" qtip-position="left" disabled qtip-content="Вы не выбрали изображение" class="add-input">
 										</div>
 									</div>
 									<div class="form-group">
 										<label for="projectUrl" class="add-label">URL проекта</label>
-										<input id="projectUrl" name="projectUrl" type="text" placeholder="Добавьте ссылку" qtip-content="Вы не добавили ссылку" class="add-input">
+										<input id="projectUrl" name="projectUrl" type="text" placeholder="Добавьте ссылку" qtip-position="left" qtip-content="Вы не добавили ссылку" class="add-input">
 									</div>
 									<div class="form-group">
 										<label for="projectDesc" class="add-label">Описание</label>
-										<textarea id="projectDesc" type="text" name="text" rows="3" placeholder="Пара слов о Вашем проекте" qtip-content="Описание проекта обязательно" class="add-textarea"></textarea>
+										<textarea id="projectDesc" type="text" name="text" rows="3" placeholder="Пара слов о Вашем проекте" qtip-position="left" qtip-content="Описание проекта обязательно" class="add-textarea"></textarea>
 									</div>
 									<div class="button-add-box">
 										<button type="submit" class="button-add">Добавить</button>
@@ -233,11 +235,14 @@
 	</footer>
 	<!--JS-->
 	<script src="bower/jquery/dist/jquery.js"></script>
+	<script src="bower/jquery-placeholder/jquery.placeholder.js"></script>
 	<script src="bower/bPopup/jquery.bpopup.js"></script>
+	<script src="bower/qtip2/jquery.qtip.js"></script>
+	<script src="js/console-ie8.js"></script>
+	<!--[if lt IE 9]>
+		<script src="js/placeholder.js"></script>
+	<![endif]-->
+	<script src="js/validate.js"></script>
 	<script src="js/add_project.js"></script>
-	<!--
-	<script src="js/main.js"></script>
-	-->
-	
 </body>
 </html>

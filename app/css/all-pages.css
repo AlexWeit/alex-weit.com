@@ -361,3 +361,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff3f7', end
 	font-size: 13px;
 	width: 410px;
 }
+
+/*для валидации*/
+
+.has-error {
+	background-color: #fad2d1 !important;
+	border-color: #f97e76 !important;
+}
+
+.has-success {
+	background-color: none;
+	border-color: #3c763d;
+}
+
+/*тултипы*/
+
+.qtip-mystyle {
+	background-color: #f97e76;
+	font-family: 'fira_sanslight';
+	color: #ffffff;
+	font-size: 13px;
+	min-width: 130px;
+	border-color: #f97e76;
+}
+
+/*placeholder for IE8 */
+.placeholder {
+	color: #5acee9 !important;
+}

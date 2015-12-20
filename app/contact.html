@@ -19,6 +19,8 @@
 	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 	<!--normalize-->
 	<link rel="stylesheet" href="bower/normalize-css/normalize.css">
+	<!--qtip-->
+	<link rel="stylesheet" href="bower/qtip2/jquery.qtip.css">
 	<!--fonts-->
 	<link rel="stylesheet" href="fonts/Fira/fira.css">
 	<link rel="stylesheet" href="fonts/Proxima-Nova/proxima.css">
@@ -125,27 +127,27 @@
 						</div>
 						<div class="contact-container">
 							<div class="contact-form">
-								<form action="server" class="form-box">
+								<form id="contact-form" action="server" role="form" class="form-box">
 									<div class="form-who clearfix">
 										<div class="form-name">
 											<label for="name" class="name-title form-title">Имя</label>
-											<input type="text" placeholder="Как к Вам обращаться" class="name-text form-text">
+											<input type="text" placeholder="Как к Вам обращаться" qtip-position="left" qtip-content="Вы не ввели имя" class="name-text form-text">
 										</div>
 										<div class="form-email">
 											<label for="email" class="email-title form-title">Email</label>
-											<input type="text" placeholder="Куда мне писать" class="email-text form-text">
+											<input type="text" placeholder="Куда мне писать" qtip-position="right" qtip-content="Вы не ввели email" class="email-text form-text">
 										</div>
 									</div>
 									<div class="form-message">
 										<label for="message" class="message-title form-title">Сообщение</label>
-										<textarea type="text" placeholder="Кратко в чем суть" class="message-text form-text"></textarea>
+										<textarea type="text" placeholder="Кратко в чем суть" qtip-position="left" qtip-content="Вы не ввели сообщение" class="message-text form-text"></textarea>
 									</div>
 									<div class="form-captcha clearfix">
 										<label for="captcha" class="captcha-title form-title">Введите код, указанный на картинке</label>
 										<div class="captcha-img-box">
 											<img src="images/captcha.png" alt="captcha" class="captcha-img">
 										</div>
-										<input type="text" placeholder="Введите код" class="captcha-text form-text">
+										<input type="text" placeholder="Введите код" qtip-position="right" qtip-content="Вы не ввели код" class="captcha-text form-text">
 									</div>
 									<div class="form-buttons clearfix">
 										<div class="button-send-box button-box">
@@ -173,9 +175,15 @@
 			</div>
 		</div> 
 	</footer>
-	<!--JS
-	<script src="bower/jquery/jquery.js"></script>
-	<script src="js/main.js"></script>
-	-->
+	<!--JS-->
+	<script src="bower/jquery/dist/jquery.js"></script>
+	<script src="bower/jquery-placeholder/jquery.placeholder.js"></script>
+	<script src="bower/qtip2/jquery.qtip.js"></script>
+	<script src="js/console-ie8.js"></script>
+	<!--[if lt IE 9]>
+		<script src="js/placeholder.js"></script>
+	<![endif]-->
+	<script src="js/validate.js"></script>
+	<script src="js/contact_form.js"></script>
 </body>
 </html>
