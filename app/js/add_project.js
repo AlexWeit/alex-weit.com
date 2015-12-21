@@ -77,7 +77,7 @@ var myAddProjectModal = (function () {
             data: data
           }).fail( function(ans) {
             console.log('Проблемы в PHP');
-            form.find('.error-mes').text('На сервере произошла ошибка').show();
+            form.find('.error-mes').text('').show();
           });
     };
 

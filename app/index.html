@@ -17,16 +17,28 @@
 	<!--favicon-->
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
-	<!--normalize-->
-	<link rel="stylesheet" href="bower/normalize-css/normalize.css">
-	<!--fonts-->
-	<link rel="stylesheet" href="fonts/Fira/fira.css">
-	<link rel="stylesheet" href="fonts/Proxima-Nova/proxima.css">
-	<!--CSS-->
+
+	<!-- build:css css/vendor.min.css -->
+	<!-- bower:css -->
+	<link rel="stylesheet" href="bower/normalize-css/normalize.css" />
+	<link rel="stylesheet" href="bower/qtip2/jquery.qtip.css" />
+	<!-- endbower -->
+	<!-- endbuild -->
+
+	<!-- build:css fonts/fonts.min.css -->
+	<link rel="stylesheet" href="fonts/fira.css">
+	<link rel="stylesheet" href="fonts/proxima.css">
+	<!-- endbuild -->
+
+	<!-- build:css css/mainpage.min.css -->
 	<link rel="stylesheet" href="css/all-pages.css">
 	<link rel="stylesheet" href="css/main-page.css">
-	<!--modernizr-->
+	<!-- endbuild -->
+
+	<!-- build:js js/modernizr.min.js -->
 	<script src="bower/modernizr/modernizr.js"></script>
+	<!--endbuild-->
+
 	<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
 		</script>
@@ -209,8 +221,16 @@
 			</div>
 		</div> 
 	</footer>
-	<!--JS
-	<script src="bower/jquery/jquery.js"></script>
-	-->
+
+	<!-- build:js js/vendor.min.js -->
+	<!-- bower:js -->
+	<script src="bower/jquery/dist/jquery.js"></script>
+	<script src="bower/modernizr/modernizr.js"></script>
+	<script src="bower/bPopup/jquery.bpopup.js"></script>
+	<script src="bower/qtip2/jquery.qtip.js"></script>
+	<script src="bower/jquery-placeholder/jquery.placeholder.js"></script>
+	<!-- endbower -->
+	<!-- endbuild -->
+
 </body>
 </html>

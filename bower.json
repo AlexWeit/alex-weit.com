@@ -7,5 +7,16 @@
     "bPopup": "bpopup#~0.11.0",
     "qtip2": "~2.2.1",
     "jquery-placeholder": "~2.3.1"
+  },
+  "overrides": {
+  		"qtip2": {
+  			"main": [
+  				"./jquery.qtip.js",
+  				"./jquery.qtip.css"
+  			],
+  			"dependencies": {
+  				"jquery": ">=1.6.0"
+  			}
+  		}
   }
 }
